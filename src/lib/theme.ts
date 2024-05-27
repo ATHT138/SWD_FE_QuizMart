@@ -1,7 +1,7 @@
-// import resolveConfig from "tailwindcss/resolveConfig";
+import resolveConfig from "tailwindcss/resolveConfig";
 
-// import tailwindConfig from "@/tailwindConfig/tailwind.config.js";
+import tailwindConfig from "../../tailwind.config";
 
-// const { theme } = resolveConfig(tailwindConfig);
+const { theme } = resolveConfig(tailwindConfig);
 
-// export default theme;
+export default theme;
