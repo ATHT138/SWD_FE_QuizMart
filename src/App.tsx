@@ -8,10 +8,9 @@ function App() {
   return (
     <div className="">
       <NavBar />
-      {/* <Button>Click me</Button>
-      <Footer /> */} 
-      {/* <LoginPage /> */}
-      {/* <Register /> */}
+      <LoginPage />
+      <Register />
+      <Footer />
     </div>
   );
 }
