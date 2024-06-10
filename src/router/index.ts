@@ -6,6 +6,7 @@ const routes = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
+    children: [],
   },
 ]);
 
