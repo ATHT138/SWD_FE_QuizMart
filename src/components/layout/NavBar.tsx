@@ -38,7 +38,7 @@ const NavBar: React.FC  = () => {
                             {/* <div className="mb-6 flex justify-center"> */}
                                 <div>
                                 <img 
-                                    src="../image/logo.jpg" 
+                                    src="./src/asset/image/logo1.svg" 
                                     alt="" 
                                     className="h-12" 
                                 />

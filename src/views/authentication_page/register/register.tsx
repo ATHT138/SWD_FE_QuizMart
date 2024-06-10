@@ -26,7 +26,7 @@ const Register: React.FC = () => {
         <div className="w-full max-w-md">
         <div className="mb-6 flex justify-center">
           <img 
-            src="../image/logo.jpg" 
+            src="./src/asset/image/logo1.svg" 
             alt="" 
             className="h-12" 
           />

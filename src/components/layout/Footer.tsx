@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="container px-4 mx-auto">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="px-4 my-4 w-full xl:w-1/5">
-                <img src="../image/logo1.svg" alt="Logo1"/>
+                <img src="./src/asset/image/logo1.svg" alt="Logo1"/>
               <p className="text-justify">
                 QuizMart is a quiz-based platform that allows users to create personalized question sets, promoting interactive learning. It employs effective learning strategies to enhance information retention and improve response times during the learning process.
               </p>
