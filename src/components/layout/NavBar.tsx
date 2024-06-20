@@ -1,15 +1,4 @@
 import React from 'react';
-// import {
-//     Activity,
-//     ArrowUpRight,
-//     CircleUser,
-//     CreditCard,
-//     DollarSign,
-//     Menu,
-//     Package2,
-//     Search,
-//     Users,
-//   } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import {
     DropdownMenu,
@@ -21,8 +10,15 @@ import {
   } from "@/components/ui/dropdown-menu"
 
 import { Search } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 const NavBar: React.FC  = () => {
+    // const dispatch = useAppDispatch();
+    // const navigate = useNavigate();
+
+    // const handleLogout = () => {
+    //     dispatch(userActions.logout());
+    //     navigate("/sign-in");
+    //   };
     return (
         <body className="flex min-h-screen w-full flex-col">
             {/* <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6"> */}

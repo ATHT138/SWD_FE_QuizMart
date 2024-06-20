@@ -38,8 +38,8 @@ const Register: React.FC = () => {
                 FullName
               </Label>
               <Input 
-                id="fullname" 
-                type="fullname" 
+                id="FullName" 
+                type="FullName" 
                 className="w-full h-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline rounded-full" 
                 placeholder='Full Name'
               />
